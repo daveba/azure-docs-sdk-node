@@ -6,7 +6,7 @@
           "**/toc.md",
           "**/toc.yml"
         ],
-        "src" : "docs-ref-autogen",
+        "src": "docs-ref-autogen",
         "dest": "api/azure_node_ref_toc",
         "version": "azure-node-latest"
       },
@@ -132,7 +132,7 @@
     "overwrite": [
       {
         "files": [
-           "_sdk/lib/services/**/*.md"
+          "_sdk/lib/services/**/*.md"
         ],
         "version": "azure-node-latest"
       }
@@ -152,25 +152,31 @@
       "apiPlatform": "javascript"
     },
     "fileMetadata": {
-      "monikers":
-      {
-        "preview-packages/**": ["azkeyvault-js-preview"],
-        "ts-packages/**": ["azure-node-latest" ],
-        "docs-ref-autogen/**": [ "azure-node-latest" ],
-        "docs-ref-services/**" : [ "azure-node-latest" ]
+      "monikers": {
+        "preview-packages/**": [
+          "azkeyvault-js-preview"
+        ],
+        "ts-packages/**": [
+          "azure-node-latest"
+        ],
+        "docs-ref-autogen/**": [
+          "azure-node-latest"
+        ],
+        "docs-ref-services/**": [
+          "azure-node-latest"
+        ]
       },
-      "feedback_system": 
-      {
-       "docs-ref-autogen/**/*": "None"
+      "feedback_system": {
+        "docs-ref-autogen/**/*": "None"
       },
       "author": {
         "docs-ref-autogen/**": "tarcher"
       },
-      "ms.manager":{
-        "docs-ref-autogen/**":"erikson-doug"
+      "ms.manager": {
+        "docs-ref-autogen/**": "erikson-doug"
       },
-      "ms.author":{
-        "docs-ref-autogen/**":"douge"
+      "ms.author": {
+        "docs-ref-autogen/**": "douge"
       },
       "ms.devlang": {
         "docs-ref-autogen/**": "nodejs"
@@ -181,7 +187,7 @@
       "ms.topic": {
         "docs-ref-autogen/**": "reference"
       },
-      "ms.service":{
+      "ms.service": {
         "docs-ref-autogen/azure-arm-advisor/**": "advisor",
         "docs-ref-autogen/azure-arm-analysisservice/**": "analysis-services",
         "docs-ref-autogen/azure-arm-authorization/**": "authorization",
@@ -227,9 +233,9 @@
         "docs-ref-autogen/azure-arm-website/**": "websites",
         "docs-ref-autogen/azure/**": "azure"
       }
-
     },
     "template": [],
-    "dest": "azure-node-sdk"
+    "dest": "azure-node-sdk",
+    "markdownEngineName": "markdig"
   }
 }

@@ -1,0 +1,544 @@
+{
+  "homepages": [],
+  "xrefmap": "azure-node-latest.xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/git-clone.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/git-clone.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/5-things-logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/5-things-logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/azure-cli-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/azure-cli-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/cloud-shell-try-it/cloud-shell-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/cloud-shell-try-it/cloud-shell-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/cloud-shell-try-it/cloud-shell-safari.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/cloud-shell-try-it/cloud-shell-safari.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/k8s_logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/k8s_logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/cli.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/cli.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/icon-azure-app-service.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/icon-azure-app-service.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/icon-azure-functions.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/icon-azure-functions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/icon-cosmos-db.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/icon-cosmos-db.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/icon-docker.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/icon-docker.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-azure-tools/vs-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-azure-tools/vs-code.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/LaunchJson.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/LaunchJson.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/add-chrome-config.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/add-chrome-config.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/breakpoint.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/breakpoint.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/browse-app.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/browse-app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/chrome-extension-reload-vscode.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/chrome-extension-reload-vscode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/chrome-pause.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/chrome-pause.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/chrome.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/chrome.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/code-peek.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/code-peek.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/console-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/console-code.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/console.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/console.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/debug-gear.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/debug-gear.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/debugger.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/debugger.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/docker-build.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/docker-build.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/docker-commands.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/docker-commands.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/docker-completion.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/docker-completion.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/docker-file.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/docker-file.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/docker-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/docker-search.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/explorer.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/explorer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/file-picker.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/file-picker.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/finished-demo.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/finished-demo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/full-stack-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/full-stack-profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/git-clone.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/git-clone.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/git-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/git-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/git.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/git.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/hover-help.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/hover-help.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/mongoose.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/mongoose.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/process-env.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/process-env.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/select-env.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/select-env.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/terminal.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/terminal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/todo.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/todo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs-ref-conceptual/media/node-howto-e2e/word-hilight.png",
+      "output": {
+        "resource": {
+          "relative_path": "azure-node-latest/azure/media/node-howto-e2e/word-hilight.png"
+        }
+      },
+      "is_incremental": false,
+      "version": "azure-node-latest",
+      "group": "azure-node-latest"
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {
+    "azure-node-latest": {
+      "version_folder": "azure-node-latest/"
+    }
+  },
+  "groups": [
+    {
+      "name": "azure-node-latest",
+      "dest": "azure-node-latest",
+      "xrefmap": "azure-node-latest.xrefmap.yml"
+    }
+  ]
+}
