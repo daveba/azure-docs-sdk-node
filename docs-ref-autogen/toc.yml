@@ -1,6 +1,9 @@
 - uid: '@azure/cosmos'
   name: '@azure/cosmos'
   items:
+    - uid: '@azure/cosmos.AuthOptions'
+      name: AuthOptions
+      items: []
     - uid: '@azure/cosmos.ClientSideMetrics'
       name: ClientSideMetrics
       items: []
@@ -118,9 +121,6 @@
     - uid: '@azure/cosmos.Offers'
       name: Offers
       items: []
-    - uid: '@azure/cosmos.Options'
-      name: Options
-      items: []
     - uid: '@azure/cosmos.PartitionKeyDefinition'
       name: PartitionKeyDefinition
       items: []
@@ -156,12 +156,6 @@
       items: []
     - uid: '@azure/cosmos.QueryPreparationTimes'
       name: QueryPreparationTimes
-      items: []
-    - uid: '@azure/cosmos.RequestCallback'
-      name: RequestCallback
-      items: []
-    - uid: '@azure/cosmos.RequestError'
-      name: RequestError
       items: []
     - uid: '@azure/cosmos.RequestOptions'
       name: RequestOptions
@@ -3901,92 +3895,11 @@
     - uid: azure-arm-containerregistry.Actor
       name: Actor
       items: []
-    - uid: azure-arm-containerregistry.Actor
-      name: Actor
-      items: []
-    - uid: azure-arm-containerregistry.BaseImageDependency
-      name: BaseImageDependency
-      items: []
-    - uid: azure-arm-containerregistry.Build
-      name: Build
-      items: []
-    - uid: azure-arm-containerregistry.BuildArgument
-      name: BuildArgument
-      items: []
-    - uid: azure-arm-containerregistry.BuildArgumentList
-      name: BuildArgumentList
-      items: []
-    - uid: azure-arm-containerregistry.BuildFilter
-      name: BuildFilter
-      items: []
-    - uid: azure-arm-containerregistry.BuildGetLogResult
-      name: BuildGetLogResult
-      items: []
-    - uid: azure-arm-containerregistry.BuildListResult
-      name: BuildListResult
-      items: []
-    - uid: azure-arm-containerregistry.Builds
-      name: Builds
-      items: []
-    - uid: azure-arm-containerregistry.BuildStep
-      name: BuildStep
-      items: []
-    - uid: azure-arm-containerregistry.BuildStepList
-      name: BuildStepList
-      items: []
-    - uid: azure-arm-containerregistry.BuildStepProperties
-      name: BuildStepProperties
-      items: []
-    - uid: azure-arm-containerregistry.BuildStepPropertiesUpdateParameters
-      name: BuildStepPropertiesUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.BuildSteps
-      name: BuildSteps
-      items: []
-    - uid: azure-arm-containerregistry.BuildStepUpdateParameters
-      name: BuildStepUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.BuildTask
-      name: BuildTask
-      items: []
-    - uid: azure-arm-containerregistry.BuildTaskBuildRequest
-      name: BuildTaskBuildRequest
-      items: []
-    - uid: azure-arm-containerregistry.BuildTaskFilter
-      name: BuildTaskFilter
-      items: []
-    - uid: azure-arm-containerregistry.BuildTaskListResult
-      name: BuildTaskListResult
-      items: []
-    - uid: azure-arm-containerregistry.BuildTasks
-      name: BuildTasks
-      items: []
-    - uid: azure-arm-containerregistry.BuildTaskUpdateParameters
-      name: BuildTaskUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.BuildUpdateParameters
-      name: BuildUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.CallbackConfig
-      name: CallbackConfig
-      items: []
     - uid: azure-arm-containerregistry.CallbackConfig
       name: CallbackConfig
       items: []
     - uid: azure-arm-containerregistry.ContainerRegistryManagementClient
       name: ContainerRegistryManagementClient
-      items: []
-    - uid: azure-arm-containerregistry.ContainerRegistryManagementClient
-      name: ContainerRegistryManagementClient
-      items: []
-    - uid: azure-arm-containerregistry.DockerBuildStep
-      name: DockerBuildStep
-      items: []
-    - uid: azure-arm-containerregistry.DockerBuildStepUpdateParameters
-      name: DockerBuildStepUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.Event
-      name: Event
       items: []
     - uid: azure-arm-containerregistry.Event
       name: Event
@@ -3994,17 +3907,8 @@
     - uid: azure-arm-containerregistry.EventContent
       name: EventContent
       items: []
-    - uid: azure-arm-containerregistry.EventContent
-      name: EventContent
-      items: []
     - uid: azure-arm-containerregistry.EventInfo
       name: EventInfo
-      items: []
-    - uid: azure-arm-containerregistry.EventInfo
-      name: EventInfo
-      items: []
-    - uid: azure-arm-containerregistry.EventListResult
-      name: EventListResult
       items: []
     - uid: azure-arm-containerregistry.EventListResult
       name: EventListResult
@@ -4012,26 +3916,8 @@
     - uid: azure-arm-containerregistry.EventRequestMessage
       name: EventRequestMessage
       items: []
-    - uid: azure-arm-containerregistry.EventRequestMessage
-      name: EventRequestMessage
-      items: []
     - uid: azure-arm-containerregistry.EventResponseMessage
       name: EventResponseMessage
-      items: []
-    - uid: azure-arm-containerregistry.EventResponseMessage
-      name: EventResponseMessage
-      items: []
-    - uid: azure-arm-containerregistry.GitCommitTrigger
-      name: GitCommitTrigger
-      items: []
-    - uid: azure-arm-containerregistry.ImageDescriptor
-      name: ImageDescriptor
-      items: []
-    - uid: azure-arm-containerregistry.ImageUpdateTrigger
-      name: ImageUpdateTrigger
-      items: []
-    - uid: azure-arm-containerregistry.ImportImageParameters
-      name: ImportImageParameters
       items: []
     - uid: azure-arm-containerregistry.ImportImageParameters
       name: ImportImageParameters
@@ -4039,17 +3925,8 @@
     - uid: azure-arm-containerregistry.ImportSource
       name: ImportSource
       items: []
-    - uid: azure-arm-containerregistry.ImportSource
-      name: ImportSource
-      items: []
     - uid: azure-arm-containerregistry.OperationDefinition
       name: OperationDefinition
-      items: []
-    - uid: azure-arm-containerregistry.OperationDefinition
-      name: OperationDefinition
-      items: []
-    - uid: azure-arm-containerregistry.OperationDisplayDefinition
-      name: OperationDisplayDefinition
       items: []
     - uid: azure-arm-containerregistry.OperationDisplayDefinition
       name: OperationDisplayDefinition
@@ -4057,38 +3934,8 @@
     - uid: azure-arm-containerregistry.OperationListResult
       name: OperationListResult
       items: []
-    - uid: azure-arm-containerregistry.OperationListResult
-      name: OperationListResult
-      items: []
-    - uid: azure-arm-containerregistry.OperationMetricSpecificationDefinition
-      name: OperationMetricSpecificationDefinition
-      items: []
     - uid: azure-arm-containerregistry.Operations
       name: Operations
-      items: []
-    - uid: azure-arm-containerregistry.Operations
-      name: Operations
-      items: []
-    - uid: azure-arm-containerregistry.OperationServiceSpecificationDefinition
-      name: OperationServiceSpecificationDefinition
-      items: []
-    - uid: azure-arm-containerregistry.PlatformProperties
-      name: PlatformProperties
-      items: []
-    - uid: azure-arm-containerregistry.ProxyResource
-      name: ProxyResource
-      items: []
-    - uid: azure-arm-containerregistry.QuarantinePolicy
-      name: QuarantinePolicy
-      items: []
-    - uid: azure-arm-containerregistry.QueueBuildRequest
-      name: QueueBuildRequest
-      items: []
-    - uid: azure-arm-containerregistry.QuickBuildRequest
-      name: QuickBuildRequest
-      items: []
-    - uid: azure-arm-containerregistry.RegenerateCredentialParameters
-      name: RegenerateCredentialParameters
       items: []
     - uid: azure-arm-containerregistry.RegenerateCredentialParameters
       name: RegenerateCredentialParameters
@@ -4096,17 +3943,8 @@
     - uid: azure-arm-containerregistry.Registries
       name: Registries
       items: []
-    - uid: azure-arm-containerregistry.Registries
-      name: Registries
-      items: []
     - uid: azure-arm-containerregistry.Registry
       name: Registry
-      items: []
-    - uid: azure-arm-containerregistry.Registry
-      name: Registry
-      items: []
-    - uid: azure-arm-containerregistry.RegistryListCredentialsResult
-      name: RegistryListCredentialsResult
       items: []
     - uid: azure-arm-containerregistry.RegistryListCredentialsResult
       name: RegistryListCredentialsResult
@@ -4114,17 +3952,8 @@
     - uid: azure-arm-containerregistry.RegistryListResult
       name: RegistryListResult
       items: []
-    - uid: azure-arm-containerregistry.RegistryListResult
-      name: RegistryListResult
-      items: []
     - uid: azure-arm-containerregistry.RegistryNameCheckRequest
       name: RegistryNameCheckRequest
-      items: []
-    - uid: azure-arm-containerregistry.RegistryNameCheckRequest
-      name: RegistryNameCheckRequest
-      items: []
-    - uid: azure-arm-containerregistry.RegistryNameStatus
-      name: RegistryNameStatus
       items: []
     - uid: azure-arm-containerregistry.RegistryNameStatus
       name: RegistryNameStatus
@@ -4132,20 +3961,8 @@
     - uid: azure-arm-containerregistry.RegistryPassword
       name: RegistryPassword
       items: []
-    - uid: azure-arm-containerregistry.RegistryPassword
-      name: RegistryPassword
-      items: []
-    - uid: azure-arm-containerregistry.RegistryPolicies
-      name: RegistryPolicies
-      items: []
     - uid: azure-arm-containerregistry.RegistryUpdateParameters
       name: RegistryUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.RegistryUpdateParameters
-      name: RegistryUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.RegistryUsage
-      name: RegistryUsage
       items: []
     - uid: azure-arm-containerregistry.RegistryUsage
       name: RegistryUsage
@@ -4153,17 +3970,8 @@
     - uid: azure-arm-containerregistry.RegistryUsageListResult
       name: RegistryUsageListResult
       items: []
-    - uid: azure-arm-containerregistry.RegistryUsageListResult
-      name: RegistryUsageListResult
-      items: []
     - uid: azure-arm-containerregistry.Replication
       name: Replication
-      items: []
-    - uid: azure-arm-containerregistry.Replication
-      name: Replication
-      items: []
-    - uid: azure-arm-containerregistry.ReplicationListResult
-      name: ReplicationListResult
       items: []
     - uid: azure-arm-containerregistry.ReplicationListResult
       name: ReplicationListResult
@@ -4171,17 +3979,8 @@
     - uid: azure-arm-containerregistry.Replications
       name: Replications
       items: []
-    - uid: azure-arm-containerregistry.Replications
-      name: Replications
-      items: []
     - uid: azure-arm-containerregistry.ReplicationUpdateParameters
       name: ReplicationUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.ReplicationUpdateParameters
-      name: ReplicationUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.Request
-      name: Request
       items: []
     - uid: azure-arm-containerregistry.Request
       name: Request
@@ -4189,35 +3988,11 @@
     - uid: azure-arm-containerregistry.Resource
       name: Resource
       items: []
-    - uid: azure-arm-containerregistry.Resource
-      name: Resource
-      items: []
-    - uid: azure-arm-containerregistry.Sku
-      name: Sku
-      items: []
     - uid: azure-arm-containerregistry.Sku
       name: Sku
       items: []
     - uid: azure-arm-containerregistry.Source
       name: Source
-      items: []
-    - uid: azure-arm-containerregistry.Source
-      name: Source
-      items: []
-    - uid: azure-arm-containerregistry.SourceControlAuthInfo
-      name: SourceControlAuthInfo
-      items: []
-    - uid: azure-arm-containerregistry.SourceRepositoryProperties
-      name: SourceRepositoryProperties
-      items: []
-    - uid: azure-arm-containerregistry.SourceRepositoryUpdateParameters
-      name: SourceRepositoryUpdateParameters
-      items: []
-    - uid: azure-arm-containerregistry.SourceUploadDefinition
-      name: SourceUploadDefinition
-      items: []
-    - uid: azure-arm-containerregistry.Status
-      name: Status
       items: []
     - uid: azure-arm-containerregistry.Status
       name: Status
@@ -4225,20 +4000,8 @@
     - uid: azure-arm-containerregistry.StorageAccountProperties
       name: StorageAccountProperties
       items: []
-    - uid: azure-arm-containerregistry.StorageAccountProperties
-      name: StorageAccountProperties
-      items: []
     - uid: azure-arm-containerregistry.Target
       name: Target
-      items: []
-    - uid: azure-arm-containerregistry.Target
-      name: Target
-      items: []
-    - uid: azure-arm-containerregistry.TrustPolicy
-      name: TrustPolicy
-      items: []
-    - uid: azure-arm-containerregistry.Webhook
-      name: Webhook
       items: []
     - uid: azure-arm-containerregistry.Webhook
       name: Webhook
@@ -4246,23 +4009,11 @@
     - uid: azure-arm-containerregistry.WebhookCreateParameters
       name: WebhookCreateParameters
       items: []
-    - uid: azure-arm-containerregistry.WebhookCreateParameters
-      name: WebhookCreateParameters
-      items: []
-    - uid: azure-arm-containerregistry.WebhookListResult
-      name: WebhookListResult
-      items: []
     - uid: azure-arm-containerregistry.WebhookListResult
       name: WebhookListResult
       items: []
     - uid: azure-arm-containerregistry.Webhooks
       name: Webhooks
-      items: []
-    - uid: azure-arm-containerregistry.Webhooks
-      name: Webhooks
-      items: []
-    - uid: azure-arm-containerregistry.WebhookUpdateParameters
-      name: WebhookUpdateParameters
       items: []
     - uid: azure-arm-containerregistry.WebhookUpdateParameters
       name: WebhookUpdateParameters

@@ -15,23 +15,13 @@ items:
       - >-
         azure-arm-containerregistry.Registries.beginDeleteMethodWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.beginImportImage_1
-      - azure-arm-containerregistry.Registries.beginImportImage
       - azure-arm-containerregistry.Registries.beginImportImage_2
+      - azure-arm-containerregistry.Registries.beginImportImage
       - >-
         azure-arm-containerregistry.Registries.beginImportImageWithHttpOperationResponse
-      - azure-arm-containerregistry.Registries.beginQueueBuild
-      - azure-arm-containerregistry.Registries.beginQueueBuild_1
-      - azure-arm-containerregistry.Registries.beginQueueBuild_2
-      - >-
-        azure-arm-containerregistry.Registries.beginQueueBuildWithHttpOperationResponse
-      - azure-arm-containerregistry.Registries.beginUpdate_2
       - azure-arm-containerregistry.Registries.beginUpdate
       - azure-arm-containerregistry.Registries.beginUpdate_1
-      - azure-arm-containerregistry.Registries.beginUpdatePolicies
-      - azure-arm-containerregistry.Registries.beginUpdatePolicies_1
-      - azure-arm-containerregistry.Registries.beginUpdatePolicies_2
-      - >-
-        azure-arm-containerregistry.Registries.beginUpdatePoliciesWithHttpOperationResponse
+      - azure-arm-containerregistry.Registries.beginUpdate_2
       - >-
         azure-arm-containerregistry.Registries.beginUpdateWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.checkNameAvailability_1
@@ -39,23 +29,18 @@ items:
       - azure-arm-containerregistry.Registries.checkNameAvailability_2
       - >-
         azure-arm-containerregistry.Registries.checkNameAvailabilityWithHttpOperationResponse
+      - azure-arm-containerregistry.Registries.create_1
       - azure-arm-containerregistry.Registries.create
       - azure-arm-containerregistry.Registries.create_2
-      - azure-arm-containerregistry.Registries.create_1
       - azure-arm-containerregistry.Registries.createWithHttpOperationResponse
-      - azure-arm-containerregistry.Registries.deleteMethod
       - azure-arm-containerregistry.Registries.deleteMethod_1
       - azure-arm-containerregistry.Registries.deleteMethod_2
+      - azure-arm-containerregistry.Registries.deleteMethod
       - >-
         azure-arm-containerregistry.Registries.deleteMethodWithHttpOperationResponse
+      - azure-arm-containerregistry.Registries.get
       - azure-arm-containerregistry.Registries.get_1
       - azure-arm-containerregistry.Registries.get_2
-      - azure-arm-containerregistry.Registries.get
-      - azure-arm-containerregistry.Registries.getBuildSourceUploadUrl
-      - azure-arm-containerregistry.Registries.getBuildSourceUploadUrl_1
-      - azure-arm-containerregistry.Registries.getBuildSourceUploadUrl_2
-      - >-
-        azure-arm-containerregistry.Registries.getBuildSourceUploadUrlWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.getWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.importImage
       - azure-arm-containerregistry.Registries.importImage_1
@@ -68,38 +53,28 @@ items:
       - azure-arm-containerregistry.Registries.listByResourceGroup_1
       - azure-arm-containerregistry.Registries.listByResourceGroup
       - azure-arm-containerregistry.Registries.listByResourceGroup_2
-      - azure-arm-containerregistry.Registries.listByResourceGroupNext
       - azure-arm-containerregistry.Registries.listByResourceGroupNext_1
       - azure-arm-containerregistry.Registries.listByResourceGroupNext_2
+      - azure-arm-containerregistry.Registries.listByResourceGroupNext
       - >-
         azure-arm-containerregistry.Registries.listByResourceGroupNextWithHttpOperationResponse
       - >-
         azure-arm-containerregistry.Registries.listByResourceGroupWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.listCredentials
-      - azure-arm-containerregistry.Registries.listCredentials_2
       - azure-arm-containerregistry.Registries.listCredentials_1
+      - azure-arm-containerregistry.Registries.listCredentials_2
       - >-
         azure-arm-containerregistry.Registries.listCredentialsWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.listNext
       - azure-arm-containerregistry.Registries.listNext_1
       - azure-arm-containerregistry.Registries.listNext_2
       - azure-arm-containerregistry.Registries.listNextWithHttpOperationResponse
-      - azure-arm-containerregistry.Registries.listPolicies
-      - azure-arm-containerregistry.Registries.listPolicies_1
-      - azure-arm-containerregistry.Registries.listPolicies_2
-      - >-
-        azure-arm-containerregistry.Registries.listPoliciesWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.listUsages_1
       - azure-arm-containerregistry.Registries.listUsages_2
       - azure-arm-containerregistry.Registries.listUsages
       - >-
         azure-arm-containerregistry.Registries.listUsagesWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.listWithHttpOperationResponse
-      - azure-arm-containerregistry.Registries.queueBuild
-      - azure-arm-containerregistry.Registries.queueBuild_1
-      - azure-arm-containerregistry.Registries.queueBuild_2
-      - >-
-        azure-arm-containerregistry.Registries.queueBuildWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.regenerateCredential
       - azure-arm-containerregistry.Registries.regenerateCredential_1
       - azure-arm-containerregistry.Registries.regenerateCredential_2
@@ -108,11 +83,6 @@ items:
       - azure-arm-containerregistry.Registries.update
       - azure-arm-containerregistry.Registries.update_1
       - azure-arm-containerregistry.Registries.update_2
-      - azure-arm-containerregistry.Registries.updatePolicies
-      - azure-arm-containerregistry.Registries.updatePolicies_1
-      - azure-arm-containerregistry.Registries.updatePolicies_2
-      - >-
-        azure-arm-containerregistry.Registries.updatePoliciesWithHttpOperationResponse
       - azure-arm-containerregistry.Registries.updateWithHttpOperationResponse
     langs:
       - typeScript
@@ -423,6 +393,45 @@ items:
         type:
           - Promise<void>
     package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.beginImportImage_2
+    name: beginImportImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Copies an image to this container registry from the specified container
+      registry.
+    syntax:
+      content: >-
+        function beginImportImage(resourceGroupName: string, registryName:
+        string, parameters: ImportImageParameters, options: function, callback:
+        ServiceCallback<void>)
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: ''
+        - id: registryName
+          type:
+            - string
+          description: ''
+        - id: parameters
+          type:
+            - azure-arm-containerregistry.ImportImageParameters
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+        - id: callback
+          type:
+            - ServiceCallback<void>
+          description: ''
+      return:
+        type:
+          - Promise<void>
+    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.beginImportImage
     name: beginImportImage
     children: []
@@ -459,45 +468,6 @@ items:
             - function
           description: ''
           optional: true
-      return:
-        type:
-          - Promise<void>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginImportImage_2
-    name: beginImportImage
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: |-
-      Copies an image to this container registry from the specified container
-      registry.
-    syntax:
-      content: >-
-        function beginImportImage(resourceGroupName: string, registryName:
-        string, parameters: ImportImageParameters, options: function, callback:
-        ServiceCallback<void>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: parameters
-          type:
-            - azure-arm-containerregistry.ImportImageParameters
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<void>
-          description: ''
       return:
         type:
           - Promise<void>
@@ -543,205 +513,6 @@ items:
       return:
         type:
           - Promise<HttpOperationResponse<void>>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginQueueBuild
-    name: beginQueueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function beginQueueBuild(resourceGroupName: string, registryName:
-        string, buildRequest: QueueBuildRequest, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: |
-            The parameters of a build that needs to queued.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginQueueBuild_1
-    name: beginQueueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function beginQueueBuild(resourceGroupName: string, registryName:
-        string, buildRequest: QueueBuildRequest, callback:
-        ServiceCallback<Build>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Build>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginQueueBuild_2
-    name: beginQueueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function beginQueueBuild(resourceGroupName: string, registryName:
-        string, buildRequest: QueueBuildRequest, options: function, callback:
-        ServiceCallback<Build>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Build>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: >-
-      azure-arm-containerregistry.Registries.beginQueueBuildWithHttpOperationResponse
-    name: beginQueueBuildWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function beginQueueBuildWithHttpOperationResponse(resourceGroupName:
-        string, registryName: string, buildRequest: QueueBuildRequest, options?:
-        function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: |
-            The parameters of a build that needs to queued.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<HttpOperationResponse<azure-arm-containerregistry.Build>>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginUpdate_2
-    name: beginUpdate
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates a container registry with the specified parameters.
-    syntax:
-      content: >-
-        function beginUpdate(resourceGroupName: string, registryName: string,
-        registryUpdateParameters: RegistryUpdateParameters, options: function,
-        callback: ServiceCallback<Registry>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: registryUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryUpdateParameters
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Registry>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.beginUpdate
     name: beginUpdate
@@ -814,57 +585,18 @@ items:
         type:
           - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginUpdatePolicies
-    name: beginUpdatePolicies
+  - uid: azure-arm-containerregistry.Registries.beginUpdate_2
+    name: beginUpdate
     children: []
     type: method
     langs:
       - typeScript
-    summary: Updates the policies for the specified container registry.
+    summary: Updates a container registry with the specified parameters.
     syntax:
       content: >-
-        function beginUpdatePolicies(resourceGroupName: string, registryName:
-        string, registryPoliciesUpdateParameters: RegistryPolicies, options?:
-        function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: |
-            The parameters for updating
-            policies of a container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginUpdatePolicies_1
-    name: beginUpdatePolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function beginUpdatePolicies(resourceGroupName: string, registryName:
-        string, registryPoliciesUpdateParameters: RegistryPolicies, callback:
-        ServiceCallback<RegistryPolicies>)
+        function beginUpdate(resourceGroupName: string, registryName: string,
+        registryUpdateParameters: RegistryUpdateParameters, options: function,
+        callback: ServiceCallback<Registry>)
       parameters:
         - id: resourceGroupName
           type:
@@ -874,42 +606,9 @@ items:
           type:
             - string
           description: ''
-        - id: registryPoliciesUpdateParameters
+        - id: registryUpdateParameters
           type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.beginUpdatePolicies_2
-    name: beginUpdatePolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function beginUpdatePolicies(resourceGroupName: string, registryName:
-        string, registryPoliciesUpdateParameters: RegistryPolicies, options:
-        function, callback: ServiceCallback<RegistryPolicies>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
+            - azure-arm-containerregistry.RegistryUpdateParameters
           description: ''
         - id: options
           type:
@@ -917,52 +616,11 @@ items:
           description: ''
         - id: callback
           type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
+            - ServiceCallback<azure-arm-containerregistry.Registry>
           description: ''
       return:
         type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: >-
-      azure-arm-containerregistry.Registries.beginUpdatePoliciesWithHttpOperationResponse
-    name: beginUpdatePoliciesWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function beginUpdatePoliciesWithHttpOperationResponse(resourceGroupName:
-        string, registryName: string, registryPoliciesUpdateParameters:
-        RegistryPolicies, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: |
-            The parameters for updating
-            policies of a container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - >-
-            Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryPolicies>>
+          - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
   - uid: >-
       azure-arm-containerregistry.Registries.beginUpdateWithHttpOperationResponse
@@ -1138,6 +796,38 @@ items:
           - >-
             Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryNameStatus>>
     package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.create_1
+    name: create
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a container registry with the specified parameters.
+    syntax:
+      content: >-
+        function create(resourceGroupName: string, registryName: string,
+        registry: Registry, callback: ServiceCallback<Registry>)
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: ''
+        - id: registryName
+          type:
+            - string
+          description: ''
+        - id: registry
+          type:
+            - azure-arm-containerregistry.Registry
+          description: ''
+        - id: callback
+          type:
+            - ServiceCallback<azure-arm-containerregistry.Registry>
+          description: ''
+      return:
+        type:
+          - Promise<azure-arm-containerregistry.Registry>
+    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.create
     name: create
     children: []
@@ -1212,38 +902,6 @@ items:
         type:
           - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.create_1
-    name: create
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Creates a container registry with the specified parameters.
-    syntax:
-      content: >-
-        function create(resourceGroupName: string, registryName: string,
-        registry: Registry, callback: ServiceCallback<Registry>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: registry
-          type:
-            - azure-arm-containerregistry.Registry
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Registry>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Registry>
-    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.createWithHttpOperationResponse
     name: createWithHttpOperationResponse
     children: []
@@ -1280,38 +938,6 @@ items:
       return:
         type:
           - Promise<HttpOperationResponse<azure-arm-containerregistry.Registry>>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.deleteMethod
-    name: deleteMethod
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Deletes a container registry.
-    syntax:
-      content: >-
-        function deleteMethod(resourceGroupName: string, registryName: string,
-        options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<void>
     package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.deleteMethod_1
     name: deleteMethod
@@ -1373,6 +999,38 @@ items:
         type:
           - Promise<void>
     package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.deleteMethod
+    name: deleteMethod
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a container registry.
+    syntax:
+      content: >-
+        function deleteMethod(resourceGroupName: string, registryName: string,
+        options?: function)
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: |
+            The name of the resource group to which
+            the container registry belongs.
+        - id: registryName
+          type:
+            - string
+          description: |
+            The name of the container registry.
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+    package: azure-arm-containerregistry
   - uid: >-
       azure-arm-containerregistry.Registries.deleteMethodWithHttpOperationResponse
     name: deleteMethodWithHttpOperationResponse
@@ -1405,6 +1063,38 @@ items:
       return:
         type:
           - Promise<HttpOperationResponse<void>>
+    package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.get
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the properties of the specified container registry.
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, registryName: string, options?:
+        function)
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: |
+            The name of the resource group to which
+            the container registry belongs.
+        - id: registryName
+          type:
+            - string
+          description: |
+            The name of the container registry.
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.get_1
     name: get
@@ -1465,168 +1155,6 @@ items:
       return:
         type:
           - Promise<azure-arm-containerregistry.Registry>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.get
-    name: get
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Gets the properties of the specified container registry.
-    syntax:
-      content: >-
-        function get(resourceGroupName: string, registryName: string, options?:
-        function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Registry>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.getBuildSourceUploadUrl
-    name: getBuildSourceUploadUrl
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Get the upload location for the user to be able to upload the source.
-    syntax:
-      content: >-
-        function getBuildSourceUploadUrl(resourceGroupName: string,
-        registryName: string, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.SourceUploadDefinition>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.getBuildSourceUploadUrl_1
-    name: getBuildSourceUploadUrl
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Get the upload location for the user to be able to upload the source.
-    syntax:
-      content: >-
-        function getBuildSourceUploadUrl(resourceGroupName: string,
-        registryName: string, callback: ServiceCallback<SourceUploadDefinition>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: callback
-          type:
-            - >-
-              ServiceCallback<azure-arm-containerregistry.SourceUploadDefinition>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.SourceUploadDefinition>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.getBuildSourceUploadUrl_2
-    name: getBuildSourceUploadUrl
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Get the upload location for the user to be able to upload the source.
-    syntax:
-      content: >-
-        function getBuildSourceUploadUrl(resourceGroupName: string,
-        registryName: string, options: function, callback:
-        ServiceCallback<SourceUploadDefinition>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - >-
-              ServiceCallback<azure-arm-containerregistry.SourceUploadDefinition>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.SourceUploadDefinition>
-    package: azure-arm-containerregistry
-  - uid: >-
-      azure-arm-containerregistry.Registries.getBuildSourceUploadUrlWithHttpOperationResponse
-    name: getBuildSourceUploadUrlWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Get the upload location for the user to be able to upload the source.
-    syntax:
-      content: >-
-        function
-        getBuildSourceUploadUrlWithHttpOperationResponse(resourceGroupName:
-        string, registryName: string, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - >-
-            Promise<HttpOperationResponse<azure-arm-containerregistry.SourceUploadDefinition>>
     package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.getWithHttpOperationResponse
     name: getWithHttpOperationResponse
@@ -1955,33 +1483,6 @@ items:
         type:
           - Promise<azure-arm-containerregistry.RegistryListResult>
     package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.listByResourceGroupNext
-    name: listByResourceGroupNext
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists all the container registries under the specified resource group.
-    syntax:
-      content: >-
-        function listByResourceGroupNext(nextPageLink: string, options?:
-        function)
-      parameters:
-        - id: nextPageLink
-          type:
-            - string
-          description: |
-            The NextLink from the previous successful call
-            to List operation.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryListResult>
-    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.listByResourceGroupNext_1
     name: listByResourceGroupNext
     children: []
@@ -2030,6 +1531,33 @@ items:
           type:
             - ServiceCallback<azure-arm-containerregistry.RegistryListResult>
           description: ''
+      return:
+        type:
+          - Promise<azure-arm-containerregistry.RegistryListResult>
+    package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.listByResourceGroupNext
+    name: listByResourceGroupNext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Lists all the container registries under the specified resource group.
+    syntax:
+      content: >-
+        function listByResourceGroupNext(nextPageLink: string, options?:
+        function)
+      parameters:
+        - id: nextPageLink
+          type:
+            - string
+          description: |
+            The NextLink from the previous successful call
+            to List operation.
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
       return:
         type:
           - Promise<azure-arm-containerregistry.RegistryListResult>
@@ -2124,6 +1652,35 @@ items:
         type:
           - Promise<azure-arm-containerregistry.RegistryListCredentialsResult>
     package: azure-arm-containerregistry
+  - uid: azure-arm-containerregistry.Registries.listCredentials_1
+    name: listCredentials
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Lists the login credentials for the specified container registry.
+    syntax:
+      content: >-
+        function listCredentials(resourceGroupName: string, registryName:
+        string, callback: ServiceCallback<RegistryListCredentialsResult>)
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: ''
+        - id: registryName
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - >-
+              ServiceCallback<azure-arm-containerregistry.RegistryListCredentialsResult>
+          description: ''
+      return:
+        type:
+          - Promise<azure-arm-containerregistry.RegistryListCredentialsResult>
+    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.listCredentials_2
     name: listCredentials
     children: []
@@ -2148,35 +1705,6 @@ items:
         - id: options
           type:
             - function
-          description: ''
-        - id: callback
-          type:
-            - >-
-              ServiceCallback<azure-arm-containerregistry.RegistryListCredentialsResult>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryListCredentialsResult>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.listCredentials_1
-    name: listCredentials
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists the login credentials for the specified container registry.
-    syntax:
-      content: >-
-        function listCredentials(resourceGroupName: string, registryName:
-        string, callback: ServiceCallback<RegistryListCredentialsResult>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
           description: ''
         - id: callback
           type:
@@ -2326,132 +1854,6 @@ items:
           - >-
             Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryListResult>>
     package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.listPolicies
-    name: listPolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists the policies for the specified container registry.
-    syntax:
-      content: >-
-        function listPolicies(resourceGroupName: string, registryName: string,
-        options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.listPolicies_1
-    name: listPolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists the policies for the specified container registry.
-    syntax:
-      content: >-
-        function listPolicies(resourceGroupName: string, registryName: string,
-        callback: ServiceCallback<RegistryPolicies>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.listPolicies_2
-    name: listPolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists the policies for the specified container registry.
-    syntax:
-      content: >-
-        function listPolicies(resourceGroupName: string, registryName: string,
-        options: function, callback: ServiceCallback<RegistryPolicies>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: >-
-      azure-arm-containerregistry.Registries.listPoliciesWithHttpOperationResponse
-    name: listPoliciesWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Lists the policies for the specified container registry.
-    syntax:
-      content: >-
-        function listPoliciesWithHttpOperationResponse(resourceGroupName:
-        string, registryName: string, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - >-
-            Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryPolicies>>
-    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.listUsages_1
     name: listUsages
     children: []
@@ -2598,166 +2000,6 @@ items:
         type:
           - >-
             Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryListResult>>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.queueBuild
-    name: queueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function queueBuild(resourceGroupName: string, registryName: string,
-        buildRequest: QueueBuildRequest, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: |
-            The parameters of a build that needs to queued.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.queueBuild_1
-    name: queueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function queueBuild(resourceGroupName: string, registryName: string,
-        buildRequest: QueueBuildRequest, callback: ServiceCallback<Build>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Build>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.queueBuild_2
-    name: queueBuild
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function queueBuild(resourceGroupName: string, registryName: string,
-        buildRequest: QueueBuildRequest, options: function, callback:
-        ServiceCallback<Build>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.Build>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.Build>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.queueBuildWithHttpOperationResponse
-    name: queueBuildWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: >-
-      Creates a new build based on the request parameters and add it to the
-      build
-
-      queue.
-    syntax:
-      content: >-
-        function queueBuildWithHttpOperationResponse(resourceGroupName: string,
-        registryName: string, buildRequest: QueueBuildRequest, options?:
-        function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: buildRequest
-          type:
-            - azure-arm-containerregistry.QueueBuildRequest
-          description: |
-            The parameters of a build that needs to queued.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<HttpOperationResponse<azure-arm-containerregistry.Build>>
     package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.regenerateCredential
     name: regenerateCredential
@@ -3029,155 +2271,6 @@ items:
         type:
           - Promise<azure-arm-containerregistry.Registry>
     package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.updatePolicies
-    name: updatePolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function updatePolicies(resourceGroupName: string, registryName: string,
-        registryPoliciesUpdateParameters: RegistryPolicies, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: |
-            The parameters for updating
-            policies of a container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.updatePolicies_1
-    name: updatePolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function updatePolicies(resourceGroupName: string, registryName: string,
-        registryPoliciesUpdateParameters: RegistryPolicies, callback:
-        ServiceCallback<RegistryPolicies>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: azure-arm-containerregistry.Registries.updatePolicies_2
-    name: updatePolicies
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function updatePolicies(resourceGroupName: string, registryName: string,
-        registryPoliciesUpdateParameters: RegistryPolicies, options: function,
-        callback: ServiceCallback<RegistryPolicies>)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: ''
-        - id: registryName
-          type:
-            - string
-          description: ''
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: ''
-        - id: options
-          type:
-            - function
-          description: ''
-        - id: callback
-          type:
-            - ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-          description: ''
-      return:
-        type:
-          - Promise<azure-arm-containerregistry.RegistryPolicies>
-    package: azure-arm-containerregistry
-  - uid: >-
-      azure-arm-containerregistry.Registries.updatePoliciesWithHttpOperationResponse
-    name: updatePoliciesWithHttpOperationResponse
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: Updates the policies for the specified container registry.
-    syntax:
-      content: >-
-        function updatePoliciesWithHttpOperationResponse(resourceGroupName:
-        string, registryName: string, registryPoliciesUpdateParameters:
-        RegistryPolicies, options?: function)
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: |
-            The name of the resource group to which
-            the container registry belongs.
-        - id: registryName
-          type:
-            - string
-          description: |
-            The name of the container registry.
-        - id: registryPoliciesUpdateParameters
-          type:
-            - azure-arm-containerregistry.RegistryPolicies
-          description: |
-            The parameters for updating
-            policies of a container registry.
-        - id: options
-          type:
-            - function
-          description: ''
-          optional: true
-      return:
-        type:
-          - >-
-            Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryPolicies>>
-    package: azure-arm-containerregistry
   - uid: azure-arm-containerregistry.Registries.updateWithHttpOperationResponse
     name: updateWithHttpOperationResponse
     children: []
@@ -3255,76 +2348,11 @@ references:
       - name: ImportImageParameters
         fullName: ImportImageParameters
         uid: azure-arm-containerregistry.ImportImageParameters
-  - uid: azure-arm-containerregistry.QueueBuildRequest
-    spec.typeScript:
-      - name: QueueBuildRequest
-        fullName: QueueBuildRequest
-        uid: azure-arm-containerregistry.QueueBuildRequest
-  - uid: Promise<azure-arm-containerregistry.Build>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: Build
-        fullName: Build
-        uid: azure-arm-containerregistry.Build
-      - name: '>'
-        fullName: '>'
-  - uid: ServiceCallback<azure-arm-containerregistry.Build>
-    spec.typeScript:
-      - name: ServiceCallback<
-        fullName: ServiceCallback<
-      - name: Build
-        fullName: Build
-        uid: azure-arm-containerregistry.Build
-      - name: '>'
-        fullName: '>'
-  - uid: Promise<HttpOperationResponse<azure-arm-containerregistry.Build>>
-    spec.typeScript:
-      - name: Promise<HttpOperationResponse<
-        fullName: Promise<HttpOperationResponse<
-      - name: Build
-        fullName: Build
-        uid: azure-arm-containerregistry.Build
-      - name: '>>'
-        fullName: '>>'
   - uid: azure-arm-containerregistry.RegistryUpdateParameters
     spec.typeScript:
       - name: RegistryUpdateParameters
         fullName: RegistryUpdateParameters
         uid: azure-arm-containerregistry.RegistryUpdateParameters
-  - uid: azure-arm-containerregistry.RegistryPolicies
-    spec.typeScript:
-      - name: RegistryPolicies
-        fullName: RegistryPolicies
-        uid: azure-arm-containerregistry.RegistryPolicies
-  - uid: Promise<azure-arm-containerregistry.RegistryPolicies>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: RegistryPolicies
-        fullName: RegistryPolicies
-        uid: azure-arm-containerregistry.RegistryPolicies
-      - name: '>'
-        fullName: '>'
-  - uid: ServiceCallback<azure-arm-containerregistry.RegistryPolicies>
-    spec.typeScript:
-      - name: ServiceCallback<
-        fullName: ServiceCallback<
-      - name: RegistryPolicies
-        fullName: RegistryPolicies
-        uid: azure-arm-containerregistry.RegistryPolicies
-      - name: '>'
-        fullName: '>'
-  - uid: >-
-      Promise<HttpOperationResponse<azure-arm-containerregistry.RegistryPolicies>>
-    spec.typeScript:
-      - name: Promise<HttpOperationResponse<
-        fullName: Promise<HttpOperationResponse<
-      - name: RegistryPolicies
-        fullName: RegistryPolicies
-        uid: azure-arm-containerregistry.RegistryPolicies
-      - name: '>>'
-        fullName: '>>'
   - uid: azure-arm-containerregistry.RegistryNameCheckRequest
     spec.typeScript:
       - name: RegistryNameCheckRequest
@@ -3356,34 +2384,6 @@ references:
       - name: RegistryNameStatus
         fullName: RegistryNameStatus
         uid: azure-arm-containerregistry.RegistryNameStatus
-      - name: '>>'
-        fullName: '>>'
-  - uid: Promise<azure-arm-containerregistry.SourceUploadDefinition>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: SourceUploadDefinition
-        fullName: SourceUploadDefinition
-        uid: azure-arm-containerregistry.SourceUploadDefinition
-      - name: '>'
-        fullName: '>'
-  - uid: ServiceCallback<azure-arm-containerregistry.SourceUploadDefinition>
-    spec.typeScript:
-      - name: ServiceCallback<
-        fullName: ServiceCallback<
-      - name: SourceUploadDefinition
-        fullName: SourceUploadDefinition
-        uid: azure-arm-containerregistry.SourceUploadDefinition
-      - name: '>'
-        fullName: '>'
-  - uid: >-
-      Promise<HttpOperationResponse<azure-arm-containerregistry.SourceUploadDefinition>>
-    spec.typeScript:
-      - name: Promise<HttpOperationResponse<
-        fullName: Promise<HttpOperationResponse<
-      - name: SourceUploadDefinition
-        fullName: SourceUploadDefinition
-        uid: azure-arm-containerregistry.SourceUploadDefinition
       - name: '>>'
         fullName: '>>'
   - uid: Promise<azure-arm-containerregistry.RegistryListResult>
